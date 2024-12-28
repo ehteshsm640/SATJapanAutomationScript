@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RunSettings>
+	<DataCollectionRunSettings>
+		<DataCollectors>
+			<!-- Video Recorder -->
+			<DataCollector friendlyName="Screen and Voice Recorder">
+				<Configuration>
+					<VideoDataCollector>
+						<!-- Capture video for all failed tests -->
+						<CaptureVideo>true</CaptureVideo>
+
+						<!-- Flag to control whether to capture video for passing tests -->
+						<CaptureOnlyOnPass>false</CaptureOnlyOnPass>
+						<!-- Change to 'true' for pass -->
+
+						<!-- Set video quality -->
+						<VideoQuality>High</VideoQuality>
+
+						<!-- Specify whether to record the full screen -->
+						<IncludeFullScreen>false</IncludeFullScreen>
+
+						<!-- Output Directory -->
+						<OutputDirectory>.\TestResults\Videos</OutputDirectory>
+						<!-- Relative path -->
+					</VideoDataCollector>
+				</Configuration>
+			</DataCollector>
+		</DataCollectors>
+	</DataCollectionRunSettings>
+</RunSettings>
+

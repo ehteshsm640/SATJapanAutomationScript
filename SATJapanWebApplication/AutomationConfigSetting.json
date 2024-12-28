@@ -1,0 +1,5 @@
+{
+  "implicitwait": "15",
+  "explicitwait": "25",
+  "pagetimeout": "30"
+}

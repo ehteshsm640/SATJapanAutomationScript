@@ -1,0 +1,11 @@
+{
+  "AppiumHost": "http://127.0.0.1:4723/",
+  "PlatformName": "Android",
+  "udid": "emulator-5554",
+  "DeviceName": "Android Emulator",
+  "AppPackage": "com.satjapan.mobile",
+  "AppActivity": "com.satjapan.mobile.MainActivity",
+  "NoReset": true
+}
+
+ 
